@@ -169,10 +169,10 @@ resolve@^1.1.6:
   dependencies:
     path-parse "^1.0.6"
 
-schema-dts@0.4.4:
-  version "0.4.4"
-  resolved "https://registry.yarnpkg.com/schema-dts/-/schema-dts-0.4.4.tgz#b7ba78fd0ededdca2f49b1862a6115a756e75707"
-  integrity sha512-ZoPxPofrSaaSvWOH8Cb3uDuiEMqkwCUB5GCU/FjK0qYyxKlO3BT0B/SznY6b3w+n6rOmXwOg65ZK7UVa2Kg20w==
+schema-dts@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/schema-dts/-/schema-dts-0.6.0.tgz#1700eadcc384d39341e0f90ad15d708504124166"
+  integrity sha512-mYfPlwuIssnlBkqcwalddhJp23grXIlpI9sDBQuTzM46pftdzXGhbMMzwoszuWZHsH5Zki+LVDeMKjTPRWiAlw==
 
 shelljs@^0.8.4:
   version "0.8.4"
@@ -195,7 +195,7 @@ typedoc-default-themes@^0.10.2:
   dependencies:
     lunr "^2.3.8"
 
-typedoc@^0.18.0:
+typedoc@0.18.0:
   version "0.18.0"
   resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.18.0.tgz#8bf53ddd7df5b8966b52c946929a09549d78682b"
   integrity sha512-UgDQwapCGQCCdYhEQzQ+kGutmcedklilgUGf62Vw6RdI29u6FcfAXFQfRTiJEbf16aK3YnkB20ctQK1JusCRbA==
@@ -211,7 +211,7 @@ typedoc@^0.18.0:
     shelljs "^0.8.4"
     typedoc-default-themes "^0.10.2"
 
-typescript@^3.9.7:
+typescript@3.9.7:
   version "3.9.7"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
   integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==

@@ -9,6 +9,8 @@ exclude: [
 ],
 ```
 
+## This issue is replicated in `schema-dts@0.4.4` but not `schema-dts@0.6.0`
+
 ## This is a test repo to reproduce this issue:
 
 ```sh

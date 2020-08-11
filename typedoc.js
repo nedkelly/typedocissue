@@ -6,9 +6,10 @@ module.exports = {
   readme: './README.md',
   exclude: [
     '**/index.*',
-    '**/Complex/**',
+    '**/node_modules/**',
+    // '**/Complex/**',
   ],
-  ignoreCompilerErrors: false,
+  ignoreCompilerErrors: true,
   excludePrivate: false,
   excludeProtected: false,
   excludeExternals: false,
