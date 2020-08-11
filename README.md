@@ -1,6 +1,15 @@
 # TypeDoc Issue
 
-This is a test repo to reproduce this issue:
+To reproduce the error just comment out Complex in `typedoc.js`
+
+```
+exclude: [
+  '**/index.*',
+  // '**/Complex/**', // <-- Here
+],
+```
+
+## This is a test repo to reproduce this issue:
 
 ```sh
 Using TypeScript 3.9.7 from /home/****/****/****/typedocissue/node_modules/typescript/lib
