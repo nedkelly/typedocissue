@@ -1,0 +1,16 @@
+{
+  "name": "typedocissue",
+  "version": "1.0.0",
+  "description": "Testing issues with schema-dts and typedoc",
+  "main": "index.js",
+  "scripts": {
+    "test": "typedoc"
+  },
+  "author": "Nathan Kelly",
+  "license": "MIT",
+  "dependencies": {
+    "schema-dts": "0.4.4",
+    "typedoc": "0.18.0",
+    "typescript": "3.9.7"
+  }
+}
