@@ -9,7 +9,7 @@
   "author": "Nathan Kelly",
   "license": "MIT",
   "dependencies": {
-    "schema-dts": "^0.6.0",
+    "schema-dts": "0.6.0",
     "typedoc": "0.18.0",
     "typescript": "3.9.7"
   }

@@ -1,17 +1,35 @@
-# TypeDoc Issue
+# TypeDoc out of memory Issue
 
-To reproduce the error just comment out Complex in `typedoc.js`
+## Steps to reproduce
 
-```
+Comment out Complex in `typedoc.js`
+
+```javascript
 exclude: [
   '**/index.*',
+  '**/node_modules/**',
   // '**/Complex/**', // <-- Here
 ],
 ```
 
-## This issue is replicated in `schema-dts@0.4.4` but not `schema-dts@0.6.0`
+## Run:
 
-## This is a test repo to reproduce this issue:
+```sh
+// yarn
+yarn && yarn test
+// npm
+npm i && npm run test
+```
+
+## Running with `schema-dts@0.6.0`:
+
+When running `schema-dts@0.6.0` and including the Complex test you'll likely
+hang indefinitely.
+
+## Running with `schema-dts@0.4.4`:
+
+When running `schema-dts@0.4.4` and including the Complex test you'll get a
+`JavaScript heap out of memory` error.
 
 ```sh
 Using TypeScript 3.9.7 from /home/****/****/****/typedocissue/node_modules/typescript/lib
